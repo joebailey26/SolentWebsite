@@ -58,10 +58,9 @@ main{
 /*footer */
 
 footer {
+    font-size: 1em;
     margin-top: 40px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 400px;
     width: 100%;
     background-color: #3f3f3f;
     color: white;
@@ -82,8 +81,6 @@ footer {
 .copyright {
     background-color: #2e2e2e;
     width: 100%;
-    left: 0;
-    bottom: 0;
+    height: 5px;
     text-align: center;
-    position: fixed;
 }
