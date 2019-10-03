@@ -1,3 +1,62 @@
+/* resets */
+body {
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: large;
+    min-height: 100vh;
+}
+nav {
+    width: 100vw;
+    height: 50px;
+    line-height: 50px;
+}
+.nav-inner {
+    padding: 0 12.5vw;
+}
+.title {
+    display: inline;
+}
+.nav-links {
+    float: right;
+}
+.nav-link {
+    padding: 0 25px;
+}
+header {
+    background: url(../img/header.jpg);
+    height: 450px;
+    color: white;
+    padding: 0 12.5vw;
+    display: flex;
+    align-content: center;
+    width: calc(100vw - 25vw);
+}
+/* main */
+main{
+    width: 75vw;
+    margin: auto;
+    height: 100vh;
+    background-color: #eee;
+}
+#leftSection{
+    float: left;
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#rightSection{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#sparkImg{
+    width: 100%;
+}
+/*footer */
+
 footer {
     margin-top: 40px;
     position: fixed;
