@@ -1,35 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400&display=swap');
 /* resets */
 body {
     margin: 0;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: large;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 nav {
     width: 100vw;
     height: 50px;
     line-height: 50px;
+    background-color: white;
 }
 .nav-inner {
     padding: 0 12.5vw;
 }
 .title {
     display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 .nav-links {
     float: right;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .nav-link {
     padding: 0 25px;
 }
 header {
-    background: url(../img/header.jpg);
-    height: 450px;
+    background: url(../images/heading.jpg);
+    height: 250px;
     color: white;
     padding: 0 12.5vw;
     display: flex;
     align-content: center;
     width: calc(100vw - 25vw);
+    background-size: cover;
+    background-position: center;
 }
 /* main */
 main{
@@ -42,15 +57,18 @@ main{
     float: left;
     width: 35%;
     height: 50%;
-    background-color: white;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 5%;
+}
+#welcome{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 #rightSection{
     float: left;
     width: 50%;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 #sparkImg{
     width: 100%;
