@@ -1,0 +1,23 @@
+main{
+    width: 75vw;
+    margin: auto;
+    height: 100vh;
+    background-color: #eee;
+}
+#leftSection{
+    float: left;
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#rightSection{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#sparkImg{
+    width: 100%;
+}
